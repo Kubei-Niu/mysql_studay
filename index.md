@@ -1,3 +1,4 @@
+```sql
 -- users用户表(主键索引,唯一索引,联合索引,全文索引)
 CREATE TABLE users (
     id BIGINT PRIMARY KEY AUTO_INCREMENT,
@@ -61,6 +62,7 @@ INSERT INTO orders (user_id, product_id, amount, total_price, status) VALUES
 (3, 5, 4, 2796.00, 'paid')
 (2, 6, 1, 199.00, 'shipped');
 
+```
 
 - **场景1**
   - 根据用户 ID 获取用户详情（例如用户中心页面）
